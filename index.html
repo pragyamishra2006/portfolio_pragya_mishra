@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pragya Mishra – Software &amp; AI Engineering Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Pragya Mishra, Computer Science Engineering student at PSIT Kanpur building AI, RAG, and full-stack software solutions."
+    />
+    <meta
+      name="keywords"
+      content="Pragya Mishra, Software Engineer, AI Engineer, Generative AI, RAG, LangChain, Full-Stack Developer, PSIT Kanpur, LeetCode"
+    />
+    <meta name="author" content="Pragya Mishra" />
+
+    <!-- OpenGraph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pragya Mishra – Software &amp; AI Engineering Portfolio" />
+    <meta
+      property="og:description"
+      content="Computer Science Engineering student passionate about AI, Generative AI, RAG systems, and scalable full-stack software engineering."
+    />
+    <meta property="og:site_name" content="Pragya Mishra Portfolio" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Pragya Mishra – Software &amp; AI Engineering Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Explore Pragya Mishra's AI, RAG, and full-stack engineering projects, achievements, and live coding profiles."
+    />
+
+    <!-- Typography: Plus Jakarta Sans (Display), DM Sans (Body), JetBrains Mono (Tabular Data & Code) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Pragya Mishra",
+        "jobTitle": "Computer Science Engineering Student & Aspiring Software Engineer",
+        "email": "mailto:pragya.mishra.0806@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Kanpur",
+          "addressRegion": "Uttar Pradesh",
+          "addressCountry": "IN"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Pranveer Singh Institute of Technology, Kanpur"
+        },
+        "sameAs": [
+          "https://github.com/pragyamishra2006",
+          "https://www.linkedin.com/in/pragya-mishra-4923a333/",
+          "https://leetcode.com/u/pragyamishra08/"
+        ],
+        "knowsAbout": [
+          "Artificial Intelligence",
+          "Generative AI",
+          "Large Language Models",
+          "Retrieval-Augmented Generation",
+          "Data Structures and Algorithms",
+          "Full-Stack Web Development"
+        ]
+      }
+    </script>
+
+    <!-- Prevent theme flash on load -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('pragya-theme');
+          if (saved === 'light') {
+            document.documentElement.classList.remove('dark');
+          } else {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-zinc-50 text-zinc-900 dark:bg-[#09090B] dark:text-zinc-100 antialiased selection:bg-blue-600/20 selection:text-blue-600 dark:selection:bg-blue-500/30 dark:selection:text-blue-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
